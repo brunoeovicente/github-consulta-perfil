@@ -16,8 +16,21 @@ body {
     min-height: 100vh;
 }
 
-input {
+#search {
+    padding: 0 12px;
+    margin: auto;
+    height: 50px;
+    width: 250px;
+    background-color: #0d3f66;
+    margin: 0 0 15px 0;
+    color: #ddd;
+    border-radius: 10px;
+    border: none;
+    outline: #0d3f66;
+}
 
+#search::placeholder {
+    color: rgb(255, 255, 255);
 }
 
 .card {
@@ -60,3 +73,18 @@ input {
     width: 300px;
 }
 
+.repo {
+    background-color: #0c6fba;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+.info strong{
+    margin: 0 20px 0 8px;
+}
